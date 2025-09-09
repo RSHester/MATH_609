@@ -41,7 +41,8 @@ for k in range(0,4):
     Lsum += L[3,k]**2
 L[3,3] = np.sqrt(A[3,3]-Lsum)
 
-print(np.linalg.cholesky(A))
+#used to check if algorithm works properly
+# print(np.linalg.cholesky(A))
 
 
 
